@@ -11,3 +11,13 @@ jobs:
     steps:
       - name: Print Hello World
         run: echo "Hello World!"
+  print-date:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Current Date and Time
+        run: date
+  print-directory:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Current Directory
+        run: ls -l
