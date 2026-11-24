@@ -51,6 +51,9 @@ module.exports = [
       },
       globals: {
         ...globals.browser,
+        ...globals.TextEncoder,
+        ...globals.TextDecoder,
+        ...globals.node,
         ...globals.es6,
         ...globals.jest
       }
